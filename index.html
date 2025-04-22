@@ -3,71 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="description" content="Quality feedbacks for your SaaS products." />
     <title>Simple Feature Section | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
-     ✋
-    
-     🥅
-    
-     💬
-    
-     Quality feedbacks for your SaaS products
-    
-     The blocks & components you need
-    
-     Collect Feedback at Multiple Touchpoints
-    
-     Provide a comprehensive understanding of the customer experience.
-    
-     Ask Targeted and Specific Questions
-    
-     Avoid vague or open-ended questions that may not yield actionable insights.
-    
-     Prioritize and Respond to Feedback
-    
-     Communicate the changes or improvements you've made in response to their feedback.
-    
-    -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+    <div class="background">
+      <picture>
+        <source
+          srcset="background_image@2x.png"
+          media="(max-width: 1280px)"
+        />
+        <img
+          src="background_image@3px.png"
+          alt=""
+          aria-hidden="true"
+          class="background-image"
+        />
+      </picture>
+    </div>
+    <div id="main-content">
+      <header id="header">
+        <h1 class="title">Quality feedbacks for your SaaS products</h1>
+        <p class="subtitle">The blocks & components you need</p>
+      </header>
+      <div class="boxes">
+        <section class="box one" tabindex="0">
+          <div class="emoji one">✋</div>
+          <h2>Collect Feedback at Multiple Touchpoints</h2>
+          <p>Provide a comprehensive understanding of the customer experience.</p>
+          <picture>
+            <source media="(max-width: 267px)"
+              srcset="resources/photo_2.png"
+            />
+            <img
+              src="resources/photo_2@2x.png"
+              alt=""
+              aria-hidden="true"
+              class="box-image"
+            />
+          </picture>
+        </section>
+        <section class="box two" tabindex="0">
+          <div class="emoji two">🥅</div>
+          <h2>Ask Targeted and Specific Questions</h2>
+          <p>Avoid vague or open-ended questions that may not yield actionable insights.</p>
+          <picture>
+            <source media="(max-width: 267px)"
+              srcset="resources/photo_1.png"
+            />
+            <img
+              src="resources/photo_1@2x.png"
+              alt=""
+              aria-hidden="true"
+              class="box-image"
+            />
+          </picture>
+        </section>
+        <section class="box three" tabindex="0">
+          <div class="emoji three">💬</div>
+          <h2>Prioritize and Respond to Feedback</h2>
+          <p>Communicate the changes or improvements you've made in response to their feedback.</p>
+          <picture>
+            <source media="(max-width: 267px)"
+              srcset="resources/photo_3.png"
+            />
+            <img
+              src="resources/photo_3@2x.png"
+              alt=""
+              aria-hidden="true"
+              class="box-image"
+            />
+          </picture>
+        </section>
     </div>
   </body>
 </html>

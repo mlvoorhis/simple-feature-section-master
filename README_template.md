@@ -30,9 +30,7 @@
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Built with](#built-with)
-- [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -49,38 +47,22 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- Handling Background Images Responsively: I learned how to <code>background-image</code> with <code>image-set()</code> for responsive images to ensure the best resolution is loaded depending on the device's screen density. To ensure browser compatability, I added <code> background-image: url(...)</code> as a fallback.
+- Making Non-Interactive Elements Focusable: You can apply the :focus psuedo-class to non-interactive elements (like div containers) by adding the tabindex attribute.
+- Defining Width for Flex-Wrap: I learned that when using <code>flex-wrap</code> to wrap items in a Flexbox layout, I needed to define a specific width for the container or items. Without this, the items would continuously wrap in an unorganized way, potentially causing layout issues.
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+- **Flexbox Cheatsheet**: [A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A comprehensive guide and cheatsheet for understanding and using Flexbox in CSS. It covers all the key properties and examples for creating flexible layouts.
+  
+- **Image-Set for Responsive Images**: [Image-Set for Responsive Images](https://uploadcare.com/blog/image-set-for-responsive-images/) - An in-depth blog post explaining how to use the `image-set()` function for responsive images in CSS. It provides best practices for serving the right image resolution based on device pixel density.
 
 ### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
-## Features
+## Contact
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-## Author
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@mlvoorhis](https://github.com/mlvoorhis)
