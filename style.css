@@ -23,11 +23,11 @@ body {
     background-color: var(--black-color);
     width: 100%;
     min-height: 100vh;
-    background-image: url('resources/Background_image.svg');
+    background-image: url('background_image.svg');
     background-image: image-set(
-        url('resources/background_image.svg') type('image/svg+xml') 1x,
-        url('resources/background_image@2x.png') type('image/png') 2x,
-        url('resources/background_image@3x.png') type('image/png') 3x
+        url('background_image.svg') type('image/svg+xml') 1x,
+        url('background_image@2x.png') type('image/png') 2x,
+        url('background_image@3x.png') type('image/png') 3x
     );
     background-size: cover;
 }
@@ -133,3 +133,4 @@ p {
    #header {
     width: 95%;
    }
+}
