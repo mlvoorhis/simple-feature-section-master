@@ -26,9 +26,8 @@ body {
     background-image: url('https://raw.githubusercontent.com/mlvoorhis/simple-feature-section-master/9b68c1ab9ad22db5487593c55cbe9ccd8ab64d86/resources/Background_image.svg');
     background-image: image-set(
         url('https://raw.githubusercontent.com/mlvoorhis/simple-feature-section-master/9b68c1ab9ad22db5487593c55cbe9ccd8ab64d86/resources/Background_image.svg') type('image/svg+xml') 1x,
-        url('https://raw.githubusercontent.com/mlvoorhis/simple-feature-section-master/main/resources/Background_image@2x.png') type('image/png') 2x,
-        url('https://raw.githubusercontent.com/mlvoorhis/simple-feature-section-master/main/resources/Background_image@3x.png') type('image/png') 3x
-    );
+        url('https://raw.githubusercontent.com/mlvoorhis/simple-feature-section-master/main/resources/Background_image@2x.png' type('image/png') 2x,
+        url('https://raw.githubusercontent.com/mlvoorhis/simple-feature-section-master/main/resources/Background_image@3x.png') type('image/png') 3x);)
     background-size: cover;
 }
 
